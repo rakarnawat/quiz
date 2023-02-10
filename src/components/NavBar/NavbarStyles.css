@@ -1,0 +1,46 @@
+.NavbarItems{
+    position: absolute;
+    width: 100%;
+    height: 125px;
+    left: 0px;
+    top: 0px;
+
+    background: #005941;
+    
+}
+
+.NavMenu{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 1px;
+    list-style: none;
+    align-items:center;
+    justify-content: end;
+}
+.NavMenuImage{
+    width: 12%;
+    height: 12%;
+    margin-left: 90%;
+    margin-right: auto;
+}
+
+.BUSOMImageClass{
+    display:flex;
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    top: 10%;
+    margin-left: 1%;
+    align-items: center;
+}
+
+.BUuserLogoImageClass{
+    display: flex;
+    position: absolute;
+    width: 3.5%;
+    height: 55%;
+    top: 20%;
+    margin-left: 93%;
+    margin-right: auto;
+    
+}
