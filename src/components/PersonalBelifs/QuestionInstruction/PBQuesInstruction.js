@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import "../QuestionInstruction/PBQuestionInstructionStyles.css";
-import { Link } from 'react-router-dom';
 
 export default function PBQuesInstruction(){
     const inputRef = useRef(null)
@@ -22,10 +21,6 @@ export default function PBQuesInstruction(){
                 <input className='StartQuizText' type="submit" value="Start Quiz"></input>
                 </div>
             </form>
-
-            {/* <div className='StartQuizButton'>
-                <Link className='StartQuizText' to={'quiz'}>Start Quiz</Link>
-            </div> */}
             </div>
         </div>
     )

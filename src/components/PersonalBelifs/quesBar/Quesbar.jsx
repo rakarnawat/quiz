@@ -12,11 +12,8 @@ class Quesbar extends Component{
                 <button className="QuesPrevBtn" type="prevQ">&#60;</button>
                 <button className="QuesNextBtn" type="nextQ">&#62;</button>
                 <div>
-                <Link className="SubmitBtn" to={'results'}>Start Quiz</Link>
-                </div>
-                {
-                //<button className="SubmitBtn" type="submit">Submit</button>
-                }   
+                <Link className="SubmitBtn" to={'results'}>Submit Quiz</Link>
+                </div>   
             </nav>
         )
     }

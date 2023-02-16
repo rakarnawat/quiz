@@ -14,23 +14,6 @@ class Navbar extends Component{
             <div>
                 <img src={BUuserLogoIconIcon} className="BUuserLogoImageClass" alt=""/>            
             </div>
-            
-            {/*Dynamic
-            -->[add at the top] import { MenuData } from "./NavBar/MenuData";
-            * <ul className="NavMenu">
-                {MenuData.map((item,index)=>{
-                    return(
-                    <li key={index}>
-                        <a href={item.url} 
-                        className={item.cName}>
-                            <img src={item.icon} className="NavMenuImage" alt={item.cName} />
-                        </a>
-                    </li>
-                    )
-                })}
-               
-            </ul>
-            */}
           </nav>  
         );
     }

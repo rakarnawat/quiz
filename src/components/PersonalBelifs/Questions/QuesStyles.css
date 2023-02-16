@@ -1,41 +1,64 @@
-.QuesClassItem{
-    position:absolute;
-}
-.QuestionsDisplay{
-    position:absolute;
-    width: 75%;
-    height: 16.4%;
-    left: 2%;
-    top: 16%;
 
-    background: #FFFFFF;
-    border: 4px solid #8AA1DD;
-    border-radius: 17px;
-}
 
-.QuesNumber{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    left: 2%;
-
-    font-family: 'Inter';
+.QuesDisplay110{
+    position: fixed;
+    width: 179px;
+    height: 139.79px;
+    left: 89px;
+    top: 23%;
+    font-family: 'Lato';
     font-style: normal;
-    font-weight: 500;
-    font-size: 180%;
+    font-weight: 600;
+    font-size: 32.3905px;
+    line-height: 39px;
     display: flex;
     align-items: center;
-    text-align: center;
+    color: #414040;
+    opacity: 0.8;
+}
+
+.QuesDisplay111{
+    position: fixed;
+    width: 1291px;
+    height: 164px;
+    left: 89px;
+    top: 30%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
 
     color: #414040;
 }
 
+
+.optionsArrangement{
+    position:relative;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    width: auto;
+    height: 15px;
+    top: 60%;
+    vertical-align: middle;
+    text-align: start;
+    text-indent: 20px;
+    left: 1%;
+    
+}
+
+
+
+
 .QuesDiscription{
-    position: absolute;
-    width: 1311px;
-    height: 164px;
-    left: 10%;
-    top: 5%;
+    position: fixed;
+    width: 100%;
+    height: 53%;
+    left: 1%;
+    top:10%;
     
     font-family: 'Inter';
     font-style: normal;
@@ -44,96 +67,9 @@
     line-height: 34px;
     display: flex;
     align-items: center;
-    
     color: #414040;
 }
-.ChoiceDisplay{
-    position: fixed;
-    width: 1302.28px;
-    height: 7.6px;
-    left: 105.52px;
-    top: 415.2px;
 
-    background: #F4F4F4;
-    border-radius: 50%;
-}
-
-.StronglyAgree{
-    position: fixed;
-    width: 38.72px;
-    height: 38px;
-    left: 75px;
-    top: 400px;
-    border-radius: 50%;
-    background: #F4F4F4;
-    border: none;
-}
-
-.Agree{
-    position: fixed;
-    width: 38.72px;
-    height: 38px;
-    left: 400.57px;
-    top: 400px;
-    border-radius: 50%;
-    background: #85DE89;
-    border: none;
-}
-
-.Neutral{
-    position: fixed;
-    width: 38.72px;
-    height: 38px;
-    left: 726.14px;
-    top: 400px;
-    border-radius: 50%;
-    background: #F4F4F4;
-}
-
-.Disagree{
-    position: fixed;
-    width: 38.72px;
-    height: 38px;
-    left: 1051.71px;
-    top: 400px;
-    border-radius: 50%;
-    background: #F4F4F4;
-}
-
-.StronglyDisagree{
-    position: fixed;
-    width: 38.72px;
-    height: 38px;
-    left: 1377.28px;
-    top: 400px;
-    border-radius: 50%;
-    background: #F4F4F4;
-}
-
-.radiobtnLine{
-    position: relative;
-    width: 98.5%;
-    height: 7.6%;
-    left: 1%;
-    top: 130%;
-    background: #F4F4F4;
-    border-radius: 100px;
-}
-    
-.checkboxgroup {
-    display: inline-block;
-    position: relative;
-    left: -10px;
-    top: -5px;
-    
-}
-    
-.checkboxgroup label {
-      display: block;
-      position: relative;
-      text-align: center;
-      left: -10px;
-}
 
 #my_radio_button_id1{
     border:2px solid white;
@@ -149,15 +85,16 @@
     background-color:#392;
 }
 
+
 .PrevBtn{
-    position: absolute;
-    width: 277.94px;
+    position: fixed;
+    width: 10%;
     height: 48px;
-    left: 20%;
-    top: 450%;
+    left: 10%;
+    top: 90%;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: rgba(130, 138, 211, 0.9);
-    border-radius: 58px;
+    background: #005941;
+    border-radius: 48.3978px;
     border: none;
 
     font-family: 'Inter';
@@ -170,31 +107,143 @@
     color: rgba(230, 230, 234, 0.9);
 }
 .PrevBtn:hover{
-    background: rgba(248, 92, 92, 0.9);
+    background: rgba(28, 83, 56, 0.9);
     color: rgba(223, 223, 223, 0.9);
 }
+.PrevbtnLabel{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    color: #F2F2F2;
+    text-indent: 10%;
+    margin-top: -5%;  
+}
+
 .NextBtn{
     
-    position: absolute;
-    width: 277.94px;
+    position: fixed;
+    width: 10%;
     height: 48px;
-    left: 60%;
-    top: 450%;
+    left: 50%;
+    top: 90%;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: rgba(130, 138, 211, 0.9);
-    border-radius: 58px;
+    background: #005941;
+border-radius: 48.3978px;
     border: none;
+    
+}
+.NextBtn:hover{
+    background: rgba(28, 83, 56, 0.9);
+    color: rgba(223, 223, 223, 0.9);
+}
+.NextBtnLabel{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    color: #F2F2F2;
+    text-indent: 60%;
+    margin-top: -5%;  
+}
+
+
+.QuesNavItems1{
+    position: absolute;
+    width: 18%;
+    height: 80%;
+    left: 79%;
+    top: 15%;
+    background: #ffffff;
+    border: 4px solid #FFFFFF;
+    box-shadow: 14px 4px 11px 8px rgba(0, 0, 0, 0.25), inset 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.NoOfQuesHeading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.SubmitBtn{
+    position:fixed;
+    width: 12%;
+    height: 5.5%;
+    left: 82%;
+    top: 85.5%;
+    cursor: pointer;
     
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 27px;
+    line-height: 190%;
     align-items: center;
     text-align: center;
-    color: rgba(230, 230, 234, 0.9);
+    color: #F2F2F2;
+    
+    text-decoration: none;
+    border: none;
+    background: #005941;
+    border-radius: 66px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
-.NextBtn:hover{
-    background: rgba(69, 51, 233, 0.9);
-    color: rgba(223, 223, 223, 0.9);
+.SubmitBtn:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.ProgressBarStyle{
+    position: fixed;
+    top:360%;
+    height: 3%;
+    left: 4%;
+    width: 87%;
+    background: #005941;
+    border-radius: 66px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ProgressBarText{
+    position: fixed;
+    top: 22%;
+    left: 70%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #959595;
+}
+
+h4{
+    position:fixed;
+    width: 100%;
+    height: 10%;
+    left: 4%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 180%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #414040;
 }

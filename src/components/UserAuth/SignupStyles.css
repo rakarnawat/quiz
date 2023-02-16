@@ -1,310 +1,295 @@
-.UserAuth{
-    position: fixed;
-    width: 25%;
-    height: 90%;
-    left: 72%;
-    top: 10%;
+.UserAuth {
+  position: fixed;
+  width: 25%;
+  height: 90%;
+  left: 72%;
+  top: 10%;
 }
 
-.headingTitle{
-    position: absolute;
-    width: 25%;
-    height: 20%;
-    left: 0%;
-    top: 0%;
+.headingTitle {
+  position: absolute;
+  width: 25%;
+  height: 20%;
+  left: 0%;
+  top: 0%;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    /* identical to box height */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
 
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 
-    color: #005941;
-
+  color: #005941;
 }
 
-.headText{
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 0%;
-    top: 14%;
+.headText {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0%;
+  top: 14%;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 
-    color: #818181;
-
+  color: #818181;
 }
 
-input{
-    width: 100%;
-    height: 100%;
-    border: none;
-    background: #ffffff00;
-    border: #ffffff00;
-    text-indent: 5%;
-    border-radius: 16px; 
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #ffffff00;
+  border: #ffffff00;
+  text-indent: 5%;
+  border-radius: 16px;
 }
-input:focus{
-    outline:solid 0px rgba(255, 255, 255, 0);
-    background-color: #ffffff00;
-}
-
-.BNumber{
-    position: absolute;
-    width: 685px;
-    height: 32px;
-    left: 0%;
-    top: 20%;
-
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
-
-    color: #818181;
+input:focus {
+  outline: solid 0px rgba(255, 255, 255, 0);
+  background-color: #ffffff00;
 }
 
-.BNumberInputText{
-    box-sizing: border-box;
-    position: absolute;
-    width: 95%;
-    height: 8%;
-    left: 0%;
-    top: 25%;
-    
-    background: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px; 
+.BNumber {
+  position: absolute;
+  width: 685px;
+  height: 32px;
+  left: 0%;
+  top: 20%;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
+
+  color: #818181;
 }
 
-.userName1{
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 0;
-    top: 35%;
+.BNumberInputText {
+  box-sizing: border-box;
+  position: absolute;
+  width: 95%;
+  height: 8%;
+  left: 0%;
+  top: 25%;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
 
-    color: #818181;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 }
 
-.userNameInput1{
-    box-sizing: border-box;
+.userName1 {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0;
+  top: 35%;
 
-    position: absolute;
-    width: 95%;
-    height: 8%;
-    left: 0%;
-    top: 40%;
-    
-    background: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px; 
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  color: #818181;
 }
 
-.password1{
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 0%;
-    top: 50%;
+.userNameInput1 {
+  box-sizing: border-box;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  position: absolute;
+  width: 95%;
+  height: 8%;
+  left: 0%;
+  top: 40%;
 
-    color: #818181;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 }
 
-.passInput1{
-    position: absolute;
-    width: 95%;
-    height: 8%;
-    left: 0%;
-    top: 55%;
+.password1 {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0%;
+  top: 50%;
 
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  color: #818181;
 }
 
-.confirmPassword{
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 0%;
-    top: 65%;
+.passInput1 {
+  position: absolute;
+  width: 95%;
+  height: 8%;
+  left: 0%;
+  top: 55%;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
 
-    color: #818181;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 }
 
-.confirmPassInput{
-    position: absolute;
-    width: 95%;
-    height: 8%;
-    left: 0%;
-    top: 70%;
+.confirmPassword {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0%;
+  top: 65%;
 
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  color: #818181;
 }
 
+.confirmPassInput {
+  position: absolute;
+  width: 95%;
+  height: 8%;
+  left: 0%;
+  top: 70%;
 
-.LoginButton1{
-    box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
 
-    position: absolute;
-    width: 95%;
-    height: 8%;
-    left: 0%;
-    top: 83%;
-
-    background: #005941;
-    border: 1px solid #000000;
-    border-radius: 16px;
-
-    
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 }
 
-.LoginText1{   
-    position: absolute;
-    left: 0%;
-    width: 100%;
-    text-indent: 140%;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.065em;
+.LoginButton1 {
+  box-sizing: border-box;
 
-    color: #FFFFFF;
+  position: absolute;
+  width: 95%;
+  height: 8%;
+  left: 0%;
+  top: 83%;
+
+  background: #005941;
+  border: 1px solid #000000;
+  border-radius: 16px;
 }
 
-.LoginDiv{
-    position: absolute;
-    width: 50%;
-    height: 40px;
-    left: 0%;
-    top: 93%;
+.LoginText1 {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  text-indent: 140%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.065em;
 
+  color: #ffffff;
 }
 
-
-
-.AlreadyMemberClass{
-    position: absolute;
-    
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
-
-    color: #818181;
-
+.LoginDiv {
+  position: absolute;
+  width: 50%;
+  height: 40px;
+  left: 0%;
+  top: 93%;
 }
 
-.LoginClass{
-    position: absolute;
-    left: 87%;
-    
+.AlreadyMemberClass {
+  position: absolute;
 
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.065em;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 
-    color: #005941;
+  color: #818181;
 }
 
+.LoginClass {
+  position: absolute;
+  left: 87%;
 
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
 
-
-
+  color: #005941;
+}
