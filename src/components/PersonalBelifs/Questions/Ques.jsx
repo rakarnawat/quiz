@@ -29,8 +29,8 @@ const Ques = () => {
   let [questionsStatus, setQuestionsStatus] = useState(Array(questionsLength).fill(0));
 
   const [progress, setProgress] = React.useState(10);
-  const checkAnswer = (questionNumber, correctAnswer, chosenValue) => {
-  console.log(questionNumber,chosenValue);
+  const checkAnswer = (questionNumber, correctAnswer, chosenValue, idx) => {
+  console.log(questionNumber+1,chosenValue, idx);
   
   setQuestionsStatus(() => {
       let newArrayValues = questionsStatus.map((val, index) => {

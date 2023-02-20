@@ -8,15 +8,20 @@ export const PBdata = [
                 "A": "Agree",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
