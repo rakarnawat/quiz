@@ -26,12 +26,13 @@ const Ques = () => {
   let [quesNum, setQuesNum] = useState(0);
   let questions = PBdata[0].questions[quesNum];
   let questionsLength = PBdata[0].questions.length;
-  let [questionsStatus, setQuestionsStatus] = useState(
-    Array(questionsLength).fill(0)
-  );
+  let [questionsStatus, setQuestionsStatus] = useState(Array(questionsLength).fill(0));
+
   const [progress, setProgress] = React.useState(10);
   const checkAnswer = (questionNumber, correctAnswer, chosenValue) => {
-    setQuestionsStatus(() => {
+  console.log(questionNumber,chosenValue);
+  
+  setQuestionsStatus(() => {
       let newArrayValues = questionsStatus.map((val, index) => {
         if (questionNumber === index) {
           if (correctAnswer === chosenValue) {

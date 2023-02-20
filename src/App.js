@@ -10,14 +10,17 @@ import Login from "./components/UserAuth/Login";
 import Signup from "./components/UserAuth/Signup";
 import ForgotPassword from "./components/UserAuth/ForgotPassword";
 import EndScreen from "./components/endOfQuiz/EndScreen";
-
+import "../src/components/NavBar/NavbarStyles.css";
+import BUSOMIcon from '../src/images/BUBCLSLogo.png';
 /**React Router */
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <div>
-        <Navbar />
+         <div className="NavbarItems">
+          <a target="_self" href="/SelectionScreen" rel="noreferrer"><img src={BUSOMIcon} className="BUSOMImageClass" alt=""/></a>
+          </div>
         <Login />
       </div>
     ),
@@ -26,7 +29,9 @@ const router = createBrowserRouter([
     path: "/Signup",
     element: (
       <div>
-        <Navbar />
+        <div className="NavbarItems">
+          <a target="_self" href="/SelectionScreen" rel="noreferrer"><img src={BUSOMIcon} className="BUSOMImageClass" alt=""/></a>
+        </div>
         <Signup />
       </div>
     ),
@@ -35,7 +40,9 @@ const router = createBrowserRouter([
     path: "/ForgotPassword",
     element: (
       <div>
-        <Navbar />
+        <div className="NavbarItems">
+          <a target="_self" href="/SelectionScreen" rel="noreferrer"><img src={BUSOMIcon} className="BUSOMImageClass" alt=""/></a>
+        </div>
         <ForgotPassword />
       </div>
     ),

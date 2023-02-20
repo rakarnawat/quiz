@@ -75,10 +75,10 @@ const Template = (props) => {
                         {
                             props.questions.O.map( ( option, index) => {
                                 return(
-                                        <div className="optionsArrangement">
+                                      <div key={index} className="optionsArrangement">
                                         <input type="radio" name="radio" id="my_radio_button_id1" className={classes.options} onClick={() => props.checkAnswer(props.quesNum, props.questions.A ,option.value)}/>
                                         <label htmlFor="my_radio_button_id1">{ option.value }</label>
-                                         </div>
+                                      </div>
                                 )
                             })
                         }
