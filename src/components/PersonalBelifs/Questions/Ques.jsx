@@ -26,13 +26,16 @@ const Ques = () => {
   let [quesNum, setQuesNum] = useState(0);
   let questions = PBdata[0].questions[quesNum];
   let questionsLength = PBdata[0].questions.length;
-  let [questionsStatus, setQuestionsStatus] = useState(Array(questionsLength).fill(0));
+  let [questionsStatus, setQuestionsStatus] = useState(
+    Array(questionsLength).fill(0)
+  );
 
   const [progress, setProgress] = React.useState(10);
+
   const checkAnswer = (questionNumber, correctAnswer, chosenValue, idx) => {
-  console.log(questionNumber+1,chosenValue, idx);
-  
-  setQuestionsStatus(() => {
+    console.log(questionNumber + 1, chosenValue, idx);
+
+    setQuestionsStatus(() => {
       let newArrayValues = questionsStatus.map((val, index) => {
         if (questionNumber === index) {
           if (correctAnswer === chosenValue) {
@@ -50,12 +53,16 @@ const Ques = () => {
 
   const nextQuestion = () => {
     setQuesNum((quesNum = quesNum + 1));
-    setProgress((prevProgress) => prevProgress >= 100 ? 0 : ((quesNum + 1) / questionsLength) * 100);
+    setProgress((prevProgress) =>
+      prevProgress >= 100 ? 0 : ((quesNum + 1) / questionsLength) * 100
+    );
   };
 
   const prevQuestion = () => {
     setQuesNum((quesNum = quesNum - 1));
-    setProgress((prevProgress) => prevProgress >= 100 ? 0 : ((quesNum + 1) / questionsLength) * 100);
+    setProgress((prevProgress) =>
+      prevProgress >= 100 ? 0 : ((quesNum + 1) / questionsLength) * 100
+    );
   };
 
   return (
