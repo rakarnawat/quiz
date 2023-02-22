@@ -30,15 +30,20 @@ export const PBdata = [
                 "A": "3%",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -47,15 +52,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -64,15 +74,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -81,15 +96,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -98,15 +118,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -116,15 +141,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -133,15 +163,20 @@ export const PBdata = [
                 "A": "3%",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -150,15 +185,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -167,15 +207,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -184,15 +229,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -201,15 +251,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },{
@@ -218,15 +273,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -235,15 +295,20 @@ export const PBdata = [
                 "A": "3%",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -252,15 +317,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -269,15 +339,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -286,15 +361,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -303,15 +383,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },{
@@ -320,15 +405,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -337,15 +427,20 @@ export const PBdata = [
                 "A": "3%",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -354,15 +449,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -371,15 +471,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -388,15 +493,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -405,15 +515,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },{
@@ -422,15 +537,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -439,15 +559,20 @@ export const PBdata = [
                 "A": "3%",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -456,15 +581,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -473,15 +603,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -490,15 +625,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -507,15 +647,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -525,15 +670,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -542,15 +692,20 @@ export const PBdata = [
                 "A": "3%",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -559,15 +714,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -576,15 +736,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -593,15 +758,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -610,15 +780,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -628,15 +803,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -645,15 +825,20 @@ export const PBdata = [
                 "A": "3%",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -662,15 +847,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -679,15 +869,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -696,15 +891,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -713,15 +913,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -731,15 +936,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -748,15 +958,20 @@ export const PBdata = [
                 "A": "3%",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -765,15 +980,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -782,15 +1002,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -799,15 +1024,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -816,15 +1046,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -834,15 +1069,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -851,15 +1091,20 @@ export const PBdata = [
                 "A": "3%",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "5"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "4"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "2"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "1"
                     }
                 ]
             },
@@ -868,15 +1113,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             },
@@ -885,32 +1135,20 @@ export const PBdata = [
                 "A": "3",
                 "O": [
                     {
-                        "value": "Strongly Disagree"
+                        "value": "Strongly Disagree",
+                        "idx": "1"
                     }, {
-                        "value": "Disagree"
+                        "value": "Disagree",
+                        "idx": "2"
                     }, {
-                        "value": "Neutral"
+                        "value": "Neutral",
+                        "idx": "3"
                     }, {
-                        "value": "Agree"
+                        "value": "Agree",
+                        "idx": "4"
                     }, {
-                        "value": "Strongly Agree"
-                    }
-                ]
-            },
-            {
-                "Q": "If I were a supervisor, I would make sure to thank my employees when they did a job well.",
-                "A": "3",
-                "O": [
-                    {
-                        "value": "Strongly Disagree"
-                    }, {
-                        "value": "Disagree"
-                    }, {
-                        "value": "Neutral"
-                    }, {
-                        "value": "Agree"
-                    }, {
-                        "value": "Strongly Agree"
+                        "value": "Strongly Agree",
+                        "idx": "5"
                     }
                 ]
             }
