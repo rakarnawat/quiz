@@ -4,7 +4,7 @@
 import Button from "@material-ui/core/Button";
 import { Grid, Typography } from "@material-ui/core";
 import axios from "axios";
-import { pageStyle } from "./Style.jsx";
+//import { pageStyle } from "./Style.jsx";
 import { useNavigate } from "react-router-dom";
 import "./QuesStyles.css";
 import * as React from "react";
@@ -12,7 +12,7 @@ import PropTypes from "prop-types";
 import LinearProgress from "@mui/material/LinearProgress";
 import Box from "@mui/material/Box";
 import "./QuesStyles.css";
-
+import "./Ques";
 import { linearProgressClasses } from "@mui/material/LinearProgress";
 import { styled } from "@mui/material/styles";
 
@@ -20,9 +20,7 @@ function LinearProgressWithLabel(props) {
   return (
     <Box sx={{ minWidth: 35 }}>
       <Typography variant="body2">
-        <label className="ProgressBarText">{`${Math.round(
-          props.value
-        )}%`}</label>
+        <label className="ProgressBarText">{`${Math.round(props.value)}%`}</label>
       </Typography>
     </Box>
   );
@@ -50,7 +48,7 @@ LinearProgressWithLabel.propTypes = {
 };
 
 const Template = (props) => {
-  let classes = pageStyle();
+  //let classes = pageStyle();
 
   let navigate = useNavigate();
 
@@ -77,18 +75,16 @@ const Template = (props) => {
     // console.log(pbAnswers);
     setPBAnswers({ ...pbAnswers });
   };
-
+  
   return (
     <Grid container>
-      <h4 className="Progresstitle">Progress</h4>
-      <Box sx={{ width: "100%" }}>
-        <BorderLinearProgress
-          className="ProgressBarStyle"
-          variant="determinate"
-          value={props.progress}
-        />
-        <LinearProgressWithLabel value={props.progress} />
-      </Box>
+      <div className="progressBarContainer">
+        <h4 className="Progresstitle">Progress</h4>
+        <Box sx={{ width: "100%" }}>
+          <BorderLinearProgress className="ProgressBarStyle" variant="determinate" value={props.progress} />
+          <LinearProgressWithLabel value={props.progress} />
+        </Box>
+      </div>
       <Grid item sm={12} className="QuesClassItem">
         <h5 className="QuesDisplay110">Question {props.quesNum + 1}</h5>
         <h3 className="QuesDisplay111">{props.questions.Q}</h3>
@@ -99,7 +95,22 @@ const Template = (props) => {
           <Grid item sm={12}>
             {props.questions.O.map((option, index) => {
               return (
-                <div key={index} className="optionsArrangement">
+                  <div button  key={index} className="optionsArrangement" onClick={() => {
+                    props.updateScore(option.idx);
+                    props.checkAnswer(props.quesNum, props.questions.A ,option.value,option.idx);
+                    props.setClickedOption(index+1);
+                    //props.nextQuestion();
+                    inputBtnHandler(props.quesNum, option.idx);
+                    }}>
+                      <Typography className={`PBOption-btn ${props.clickedOption === index+1?"checked":"unchecked"}`}>
+                        <div className="pbOptionsText">
+                        {/*index+1*/} 
+                        { option.value } 
+                        </div>
+                      </Typography>
+                  </div>
+
+                /* <div key={index} className="optionsArrangement">
                   <input
                     type="radio"
                     name="radio"
@@ -107,7 +118,6 @@ const Template = (props) => {
                     className={classes.options}
                     // onClick={
                     //   () => nextBtnHandler(props.quesNum, option.idx)
-
                     // }
                     onClick={() => {
                       props.checkAnswer(
@@ -120,7 +130,7 @@ const Template = (props) => {
                     }}
                   />
                   <label htmlFor="my_radio_button_id1">{option.value}</label>
-                </div>
+                </div> */
               );
             })}
           </Grid>
@@ -131,7 +141,7 @@ const Template = (props) => {
         <Grid container className="PBButtonsClass">
           <div className="PrevBtn">
             <Button
-              onClick={() => props.prevQuestion()}
+              onClick={() =>props.prevQuestion()}
               disabled={props.quesNum === 0}
             >
               <div className="PrevbtnLabel"> Prev </div>

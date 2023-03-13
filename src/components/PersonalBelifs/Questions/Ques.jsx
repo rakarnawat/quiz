@@ -31,7 +31,10 @@ const Ques = () => {
   );
 
   const [progress, setProgress] = React.useState(10);
+  const [score,setScore] = useState(0);
+  const [clickedOption,setClickedOption] = useState(0);
 
+  
   const checkAnswer = (questionNumber, correctAnswer, chosenValue, idx) => {
     console.log(questionNumber + 1, chosenValue, idx);
 
@@ -50,8 +53,17 @@ const Ques = () => {
       return newArrayValues;
     });
   };
+  const updateScore=(idx)=>{
+    
+      setScore(score + parseInt(idx));
+      console.log(parseInt(idx)+score);
+    
+  };
+
 
   const nextQuestion = () => {
+    //updateScore();
+    setClickedOption(0);
     setQuesNum((quesNum = quesNum + 1));
     setProgress((prevProgress) =>
       prevProgress >= 100 ? 0 : ((quesNum + 1) / questionsLength) * 100
@@ -59,6 +71,7 @@ const Ques = () => {
   };
 
   const prevQuestion = () => {
+    setClickedOption(0)
     setQuesNum((quesNum = quesNum - 1));
     setProgress((prevProgress) =>
       prevProgress >= 100 ? 0 : ((quesNum + 1) / questionsLength) * 100
@@ -90,6 +103,9 @@ const Ques = () => {
               prevQuestion={prevQuestion}
               questionsStatus={questionsStatus}
               checkAnswer={checkAnswer}
+              setClickedOption={setClickedOption}
+              clickedOption={clickedOption}
+              updateScore={updateScore}
             />
           </Grid>
         </div>

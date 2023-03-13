@@ -12,6 +12,10 @@ import ForgotPassword from "./components/UserAuth/ForgotPassword";
 import EndScreen from "./components/endOfQuiz/EndScreen";
 import "../src/components/NavBar/NavbarStyles.css";
 import BUSOMIcon from '../src/images/BUBCLSLogo.png';
+import DDInstructions from "./components/DifficultDecisions/DDInstructions/DDInstructions";
+import DDDescriptions from "./components/DifficultDecisions/DDDescription/DDDescriptions";
+import DDTable from "./components/DifficultDecisions/DDTable/DDTable";
+
 /**React Router */
 const router = createBrowserRouter([
   {
@@ -83,6 +87,33 @@ const router = createBrowserRouter([
           //<Quesbar/>
         }
         <Ques />
+      </div>
+    ),
+  },
+  {
+    path: "/DDInstructions",
+    element: (
+      <div>
+        <Navbar />
+        <DDInstructions />
+      </div>
+    ),
+  },
+  {
+    path: "/DDDescriptions",
+    element: (
+      <div>
+        <Navbar />
+        <DDDescriptions/>
+      </div>
+    ),
+  },
+  {
+    path: "/DDTable",
+    element: (
+      <div>
+        <Navbar />
+        <DDTable/>
       </div>
     ),
   },

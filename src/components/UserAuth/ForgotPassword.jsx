@@ -17,7 +17,7 @@ export default function ForgotPassword() {
           <h1 className="headingTitle">Login</h1>
           <p className="headText">Welcome to Leadership Assesment Program</p>
           <label htmlFor="email" className="userName">
-            User Name
+            B-mail
           </label>
           <div className="userNameInput">
             <input
@@ -31,13 +31,13 @@ export default function ForgotPassword() {
             />
           </div>
           <label htmlFor="password" className="password">
-            Date of Birth
+            Token {"(12-digit)"}
           </label>
           <div className="passInput">
             <input
-              type={"date"}
+              //type={"date"}
               //className="passInput"
-              placeholder="*************"
+              placeholder="************"
               id="password"
               name="password"
               required

@@ -17,7 +17,7 @@ export default function Login() {
           <h1 className="headingTitle">Login</h1>
           <p className="headText">Welcome to Leadership Assesment Program</p>
           <label htmlFor="email" className="userName">
-            User Name
+            B-mail
           </label>
           <div className="userNameInput">
             <input

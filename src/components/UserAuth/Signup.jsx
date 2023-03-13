@@ -18,6 +18,25 @@ export default function Signup() {
         <form id="loginForm" action="/SelectionScreen">
           <h1 className="headingTitle">Signup</h1>
           <p className="headText">Welcome to Leadership Assesment Program</p>
+          
+          <label className="FirstName">First Name</label>
+          <div className="FirstNameInputText">
+            <input
+              ref={inputRef}
+              required
+              type="text"
+              placeholder="Enter First Name"
+            />
+          </div>
+          <label className="LastName">Last Name</label>
+          <div className="LastNameInputText">
+            <input
+              ref={inputRef}
+              required
+              type="text"
+              placeholder="Enter Last Name"
+            />
+          </div>
           <label className="BNumber">B-Number</label>
           <div className="BNumberInputText">
             <input
@@ -29,7 +48,7 @@ export default function Signup() {
             />
           </div>
           <label htmlFor="email" className="userName1">
-            User Name
+            B-mail
           </label>
           <div className="userNameInput1">
             <input

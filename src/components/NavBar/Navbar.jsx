@@ -43,6 +43,10 @@ function Navbar() {
     let path = `/reports`; 
     navigate(path);
   }
+  const aboutUsRoute = () =>{ 
+    let path = `/aboutUs`; 
+    navigate(path);
+  }
   const logoutRoute = () =>{ 
     let path = `/`; 
     navigate(path);
@@ -65,6 +69,7 @@ function Navbar() {
                     <button onClick={profileRoute} className='ProfileBtn' >Profile</button>
                     <button onClick={dahboardRoute} className='DashboardBtn1' >Dashboard</button>
                     <button onClick={reportRoute} className='ReportsBtn1' >Reports</button>
+                    <button onClick={aboutUsRoute} className='AboutUsBtn1' >About Us</button>
                     <button onClick={logoutRoute} className='LogoutBtn' >Logout</button>
                 </div>
               </div>

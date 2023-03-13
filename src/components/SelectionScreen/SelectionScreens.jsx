@@ -53,7 +53,7 @@ export default function SelectionScreens() {
             with each statement. There are no right or wrong answers in this
             section. You should respond accurately and candidly.
           </p>
-          <form id="form" className="ddStartBtnForm" action="/DDInforamtion">
+          <form id="form" className="ddStartBtnForm" action="/DDInstructions">
             <div className="ddStartButton">
               <input className="ddStartText" type="submit" value=">"></input>
             </div>
